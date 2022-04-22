@@ -1,0 +1,135 @@
+{
+    "classname": "SimpleRadioButtons",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bc81e4c3840f4d48a74d01f2374c7c6f",
+                    "paramList": [
+                        {
+                            "name": "key"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "displayName": "onSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dee9a927fb49444e9ba16c2a8de32f1d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "key",
+                                "columnHeaderType": "text",
+                                "columnID": "key",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "a469113c2cf44e20bdedcd1e22dae572"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "label",
+                                "columnHeaderType": "text",
+                                "columnID": "label",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "gb7cc9df1fb0452badd03105950ad2d7"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "selected",
+                                "columnHeaderType": "text",
+                                "columnID": "selected",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e8d361ed5dff414199818c2cdfa45710"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "bf22b99883ef4b7e8a18b7e7e24edde0",
+                    "originalPropertyKey": "buttons",
+                    "propertyIndex": 1,
+                    "propertyKey": "buttons",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "buttons",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "dee9a927fb49444e9ba16c2a8de32f1d",
+                    "type": "data grid",
+                    "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "jbe03cf274ec41feaadf9331974a659e",
+                    "originalPropertyKey": "selected",
+                    "propertyIndex": 3,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selected",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dee9a927fb49444e9ba16c2a8de32f1d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f1f12ec45a2e4c1fb7b78df4cd492fd7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButtons",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d19cd915273a49a692bc9ed86a72a0be"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.dacartec",
+    "version": "1.0.0"
+}

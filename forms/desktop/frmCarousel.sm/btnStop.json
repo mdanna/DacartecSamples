@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "179dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s716353f1ad340c3ac6440709d4b6092",
+    "_text_": "Stop",
+    "_top_": {
+        "type": "string",
+        "value": "660dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "80%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc239d5208db42b78fc0efe0bd8a79d2",
+    "id": "btnStop",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ja01ec369bc04314b4c92d9f8488157c",
+    "name": "kony.ui.Button",
+    "parent": "frmCarousel",
+    "pf": "frmCarousel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

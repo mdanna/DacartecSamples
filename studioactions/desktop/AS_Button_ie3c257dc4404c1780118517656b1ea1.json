@@ -1,0 +1,22 @@
+{
+    "AS_Button_ie3c257dc4404c1780118517656b1ea1": {
+        "id": "AS_Button_ie3c257dc4404c1780118517656b1ea1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmButtons",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fafdee10683e4b8db94b7922c556df8b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d451c58b05f24bbf99f32a501c98fa3c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.radioButtons.selected = self.view.txtInfo.text;"
+        }]
+    }
+}

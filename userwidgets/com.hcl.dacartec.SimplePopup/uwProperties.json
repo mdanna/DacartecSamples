@@ -1,0 +1,169 @@
+{
+    "classname": "SimplePopup",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h2bfc2f5a5fb4f13a6191227433bc5b3",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onClose",
+                    "pw": {
+                        "displayName": "onClose",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f3e3b019ec49489baeb0c8e38cd56dae",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c42531fca12c43f9802960f5e5f8d325",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickLeft",
+                        "srcWidget": "flxButtonLeft",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b884f54d21f24b6e857dab801206e1d0",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b4732df8310845798e4c5d0e71bb8f32",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickRight",
+                        "srcWidget": "flxButtonRight",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a0624609e2bc4d6fb66e59cd4927fe9e",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Buttons"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f8d4def880b6470e8bf81c817fb2481c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a93d8a230ad5444b9507118da40bce71"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Buttons",
+                    "kuid": "f3eb0c527a174d558f7998823a4be509",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "leftText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "leftText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButtonLeft",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bd00df1d3f8d46ad8544fc3c36eae963"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g7c3eb6745564cf6a15d21aa84e63aac",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "message",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "message",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMessage",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b1fea4a862814913b90e4401e4ae8bbb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Buttons",
+                    "kuid": "b0479474bb8640f8aef75506093a17b8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "rightText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "rightText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButtonRight",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e558b00cb88b41f0bfa7763224bb1a17"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.dacartec",
+    "version": "1.0.0"
+}

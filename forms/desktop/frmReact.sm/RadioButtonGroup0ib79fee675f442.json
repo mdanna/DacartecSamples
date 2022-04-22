@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "67dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s70e5835b6f94fe5be20caedc5e6e695",
+    "_top_": {
+        "type": "string",
+        "value": "242dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "533dp"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "RadioButtonGroup0ib79fee675f442",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "d05395cad2a84cb3a18a070fa1362bf4",
+    "masterdata": [
+        [
+            "rbg1",
+            "Radiobutton One"
+        ],
+        [
+            "rbg2",
+            "Radiobutton Two"
+        ],
+        [
+            "rbg3",
+            "Radiobutton Three"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "frmReact",
+    "pf": "frmReact",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "rbg2",
+    "selectedkeyvalue": [
+        "rbg2",
+        "Radiobutton Two"
+    ],
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

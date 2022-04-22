@@ -1,0 +1,86 @@
+{
+    "classname": "SimpleCheckButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "hd0d7cb79a5140e0ae5eca71e34c8f0e",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "displayName": "onSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a06aa4954f4c4e9e891a5d30d7f82362",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g44752db93eb4a5e8cae341b52f88196",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "selected",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxDot",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f28f7eb1e8874c398edd220d035d27b8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "deea443591d94434916352046f084fb1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a54cc1a81666464ab915d0670f2701c6"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.dacartec",
+    "version": "1.0.0"
+}

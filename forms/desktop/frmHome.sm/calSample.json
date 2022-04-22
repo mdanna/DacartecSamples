@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calendar.png",
+    "_data_": null,
+    "_date_": "21/4/2022",
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "128dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s345a2c14c60489098ca64ddc73233a4",
+    "_top_": {
+        "type": "string",
+        "value": "353dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "advview": "default",
+    "calendaricon": "calendar.png",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "40%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        21,
+        4,
+        2022,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "day": 21,
+    "daytextalignmentincell": 5,
+    "format": "dd/MM/yyyy",
+    "formatteddate": "21/04/2022",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calSample",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "je24a54dd2ff4344acb1130b0dca66e8",
+    "minutes": 0,
+    "month": 4,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "pagedate": "/2022",
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2022",
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": 2022,
+    "zindex": 1
+}

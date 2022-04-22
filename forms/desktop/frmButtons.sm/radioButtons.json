@@ -1,0 +1,110 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s23251778e04455b86f871329fc6c6a1",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "buttons": {
+            "data": [
+                {
+                    "key": "pippo",
+                    "label": "Pippo",
+                    "selected": "true"
+                },
+                {
+                    "key": "pluto",
+                    "label": "Pluto",
+                    "selected": ""
+                },
+                {
+                    "key": "paperino",
+                    "label": "Paperino",
+                    "selected": ""
+                },
+                {
+                    "key": "topolino",
+                    "label": "Topolino",
+                    "selected": ""
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "key",
+                    "columnHeaderType": "text",
+                    "columnID": "key",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "a469113c2cf44e20bdedcd1e22dae572"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "label",
+                    "columnHeaderType": "text",
+                    "columnID": "label",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "gb7cc9df1fb0452badd03105950ad2d7"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "selected",
+                    "columnHeaderType": "text",
+                    "columnID": "selected",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "e8d361ed5dff414199818c2cdfa45710"
+                }
+            ]
+        },
+        "label": "My Radio Buttons",
+        "selected": "pippo"
+    },
+    "id": "radioButtons",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e7b78420620a4d67a95a05b1d0a89c27",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmButtons",
+    "pf": "frmButtons",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "dee9a927fb49444e9ba16c2a8de32f1d",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
