@@ -1,0 +1,129 @@
+{
+    "classname": "AccordeonMenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e742303685b9487aa758163aeb86fa02",
+                    "paramList": [],
+                    "propertyKey": "loadMenuItems",
+                    "pw": {
+                        "displayName": "loadMenuItems",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "eebfeaaae8184f2c9e68770db643f1ee",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e80591d31f7d4d87a6d37de13c2cbe67",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onItemSelection",
+                    "pw": {
+                        "displayName": "onItemSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "eebfeaaae8184f2c9e68770db643f1ee",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Icon",
+                                "columnHeaderType": "text",
+                                "columnID": "icon",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "bb409a4ddc084230ac2089513ada389a"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Label",
+                                "columnHeaderType": "text",
+                                "columnID": "label",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "d9451b2e1f2b4c228d1bad39dc332eae"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Key",
+                                "columnHeaderType": "text",
+                                "columnID": "key",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "ceb868d3a8c04bab802e1860afc44c89"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "adb83cce27bb4c2d8edaaa1a359b3ddd",
+                    "originalPropertyKey": "menuItems",
+                    "propertyIndex": 1,
+                    "propertyKey": "menuItems",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "menuItems",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "eebfeaaae8184f2c9e68770db643f1ee",
+                    "type": "data grid",
+                    "value": 3
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d09332d782fb4e239f1781c1234926ae",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "abe52676e88f47f68639fe8f36c664ed"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.dacartec",
+    "version": "1.0.0"
+}

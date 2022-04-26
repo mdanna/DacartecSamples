@@ -1,0 +1,99 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s23251778e04455b86f871329fc6c6a1",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "menuItems": {
+            "data": [
+                {
+                    "icon": "a",
+                    "key": "a",
+                    "label": "A"
+                },
+                {
+                    "icon": "b",
+                    "key": "b",
+                    "label": "B"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Icon",
+                    "columnHeaderType": "text",
+                    "columnID": "icon",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "bb409a4ddc084230ac2089513ada389a"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Label",
+                    "columnHeaderType": "text",
+                    "columnID": "label",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "d9451b2e1f2b4c228d1bad39dc332eae"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Key",
+                    "columnHeaderType": "text",
+                    "columnID": "key",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "ceb868d3a8c04bab802e1860afc44c89"
+                }
+            ]
+        },
+        "title": "Menu 2"
+    },
+    "id": "cmpAccordeonMenu2",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d9dbf239453d42b7b4af62d355665099",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMenu",
+    "pf": "frmMenu",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "eebfeaaae8184f2c9e68770db643f1ee",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
