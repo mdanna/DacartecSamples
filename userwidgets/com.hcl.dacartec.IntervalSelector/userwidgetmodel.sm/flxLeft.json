@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -29,25 +29,26 @@
     },
     "_width_": {
         "type": "string",
-        "value": "160dp"
+        "value": "40dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblButton"
+        "flxFrom",
+        "flxLeftCircle"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxLabel",
+    "id": "flxLeft",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf8645e860ee4324af0e6205d139929a",
+    "kuid": "a6dbef76318e4c7abf3e4a25cbbc8551",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "MenuItem",
+    "parent": "IntervalSelector",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -55,6 +56,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

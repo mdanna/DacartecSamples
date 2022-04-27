@@ -5,10 +5,6 @@
         "type": "string",
         "value": "100%"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         1,
         1,
@@ -16,17 +12,13 @@
         1
     ],
     "_padding_": [
-        0,
+        2,
         0,
         0,
         0
     ],
-    "_skin_": "sdae3941d6ab41ce9c96d4684c93f93c",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s33dd315d3bd4874a86341ce29050028",
+    "_text_": "100",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -39,9 +31,17 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblIcon",
+    "contentalignment": 4,
+    "id": "lblTo",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c6703c866ba44831b0c272354bc8ad81",
+    "kuid": "d576ebbb76454eebb9e6518df2b307cf",
     "name": "kony.ui.Label",
-    "parent": "flxIcon",
+    "parent": "flxTo",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
