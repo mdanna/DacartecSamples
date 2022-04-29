@@ -257,6 +257,7 @@
     "category": "app",
     "chat": "false",
     "cloud_account_guid": "c8466bef-25a1-447e-8276-efab82034f3d",
+    "cloud_env_GUID": "200d2885-b0f4-4c7e-a552-7739269724f5",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -270,7 +271,7 @@
     "defaultZIndex": "1",
     "defaultlocalekey": "en",
     "defaulttheme": "defaultTheme",
-    "desktopstartupformkey": "afe77aafe48f429bba811cc072e03d21",
+    "desktopstartupformkey": "ad6129000de5481f8d2f8b2d29773b24",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
     "desktopwebfavico": "",
@@ -372,6 +373,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "c8466bef-25a1-447e-8276-efab82034f3d": {
+            "appName": "DacartecSamples",
+            "baseId": "db4906f7-b65e-4a43-91f6-3a8bb3824f42",
+            "id": "db4906f7-b65e-4a43-91f6-3a8bb3824f42",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.2.39",
     "lastmodifiedtime": "1650530342169",
     "location": "false",

@@ -15,11 +15,6 @@
         0
     ],
     "_percent_": true,
-    "_pxMenuIndex": [
-        2,
-        1,
-        0
-    ],
     "_skin_": "s91dcd5938e44cb7805554757cd47b61",
     "_title_": null,
     "addWidgetsdone": false,
@@ -47,15 +42,18 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "radioButtons",
-        "flxButtons"
+        "piechart"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "frmButtonsController"
+            "name": "frmChartController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b3",
+        "width": 640
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -64,7 +62,7 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmButtons",
+    "id": "frmChart",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -87,7 +85,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "fafdee10683e4b8db94b7922c556df8b",
+    "kuid": "ad6129000de5481f8d2f8b2d29773b24",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,

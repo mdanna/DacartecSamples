@@ -1,0 +1,108 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd7313af5a784726a8f85255d800d7ee",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "chartData": {
+            "data": [
+                {
+                    "colorCode": "#1B9ED9",
+                    "label": "Data1",
+                    "value": "40"
+                },
+                {
+                    "colorCode": "#E8672B",
+                    "label": "Data2",
+                    "value": "20"
+                },
+                {
+                    "colorCode": "#76C044",
+                    "label": "Data3",
+                    "value": "20"
+                },
+                {
+                    "colorCode": "#FFC522",
+                    "label": "Data4",
+                    "value": "10"
+                },
+                {
+                    "colorCode": "#97CDED",
+                    "label": "Data5",
+                    "value": "10"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Label",
+                    "columnHeaderType": "text",
+                    "columnID": "label",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "c8434b6cbed443e6a6167d99e8c3bdcb"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Value",
+                    "columnHeaderType": "text",
+                    "columnID": "value",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "cddb65c1fe8c429bb5a4b5f93bd171ef"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Color Code",
+                    "columnHeaderType": "text",
+                    "columnID": "colorCode",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f722303b71a8439eae528d9af9856f30"
+                }
+            ]
+        }
+    },
+    "id": "piechart",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e5a0d4ac1e4b409f8306907a86a5a86c",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmChart",
+    "pf": "frmChart",
+    "sourceUserWidget": "u3b09567057c489b8179dd508e5332af",
+    "wType": "UserWidgetInstance"
+}

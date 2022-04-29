@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "enablenativecommunication": true,
+    "htmlstring": "Browser",
+    "id": "PieBrowser",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bounces": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "u7286c6e16a14459a3c5d4ba43d8eb8f",
+    "localurl": "wff377dfc0ff43968b77af531dfcbd5f",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "piechart",
+    "pf": "userwidgetmodel",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "screenlevelwidget": false,
+    "url": "",
+    "vizProps": {
+        "runJS": true
+    },
+    "wType": "Browser",
+    "zindex": 1
+}

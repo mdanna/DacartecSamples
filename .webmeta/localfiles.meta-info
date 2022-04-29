@@ -1,9 +1,75 @@
 {
     "HEAD": "wee9dabbe513409f8390a241344d5297",
+    "w013fcc9044b422b81f5b35da173ba20": {
+        "children": [
+            "w45f5c24937f46cd83f273d337cc2330",
+            "wee4bd8e9b5a4efe802b386a13154022",
+            "w9b4a285a64d4d078555e67ce09f8fc6",
+            "w516bb62ad88407083028cca0f3aa9a0",
+            "waf78f3be34041eca008d49d2164e315",
+            "wc5031450e2345ff8438c7d8c564f9af",
+            "wff377dfc0ff43968b77af531dfcbd5f"
+        ],
+        "kuid": "w013fcc9044b422b81f5b35da173ba20",
+        "name": "Chart_pie",
+        "parent": "wee9dabbe513409f8390a241344d5297",
+        "type": "D"
+    },
+    "w45f5c24937f46cd83f273d337cc2330": {
+        "extension": "js",
+        "kuid": "w45f5c24937f46cd83f273d337cc2330",
+        "name": "chartist-plugin-axistitle.js",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
+    "w516bb62ad88407083028cca0f3aa9a0": {
+        "extension": "js",
+        "kuid": "w516bb62ad88407083028cca0f3aa9a0",
+        "name": "chartist_pie.js",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
+    "w9b4a285a64d4d078555e67ce09f8fc6": {
+        "extension": "js",
+        "kuid": "w9b4a285a64d4d078555e67ce09f8fc6",
+        "name": "chartistlegend.js",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
+    "waf78f3be34041eca008d49d2164e315": {
+        "extension": "css",
+        "kuid": "waf78f3be34041eca008d49d2164e315",
+        "name": "chartitst.css",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
+    "wc5031450e2345ff8438c7d8c564f9af": {
+        "extension": "js",
+        "kuid": "wc5031450e2345ff8438c7d8c564f9af",
+        "name": "LIC.js",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
+    "wee4bd8e9b5a4efe802b386a13154022": {
+        "extension": "js",
+        "kuid": "wee4bd8e9b5a4efe802b386a13154022",
+        "name": "chartist.js",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
+    },
     "wee9dabbe513409f8390a241344d5297": {
-        "children": [],
+        "children": [
+            "w013fcc9044b422b81f5b35da173ba20"
+        ],
         "kuid": "wee9dabbe513409f8390a241344d5297",
         "name": "localfiles",
         "type": "L"
+    },
+    "wff377dfc0ff43968b77af531dfcbd5f": {
+        "extension": "html",
+        "kuid": "wff377dfc0ff43968b77af531dfcbd5f",
+        "name": "Pie_chartistChart.html",
+        "parent": "w013fcc9044b422b81f5b35da173ba20",
+        "type": "F"
     }
 }
